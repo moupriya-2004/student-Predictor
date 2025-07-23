@@ -44,6 +44,4 @@ if st.sidebar.button("Predict Final Grade"):
     st.success(f"📊 Prediction for {name} (ID: {student_id})")
     st.write(f"**Predicted Final Grade:** {prediction:.2f} / 100")
 
-# Optional: Show raw data
-with st.expander("📂 View Dataset"):
-    st.dataframe(df)
+
